@@ -66,6 +66,14 @@ ol {
 /*---------------------
 	Helper CSS
 -----------------------*/
+
+.list-collapse li {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 15px !important;
+}
+
+
 .spad {
 	padding-top: 125px;
 	padding-bottom: 110px;
@@ -1067,7 +1075,8 @@ ol {
 	position: relative;
 	left: 0;
 	top: 0;
-	padding-top: 50px;
+	padding-top: 5px;
+	margin-bottom: 50px
 }
 
 .home-five-style .review-slider .owl-dots .owl-dot {
